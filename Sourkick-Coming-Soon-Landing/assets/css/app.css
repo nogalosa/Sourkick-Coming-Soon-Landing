@@ -1,2 +1,52 @@
 @import "../fonts/fonts.css";
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+
+    font-size: 25px;
+    color: #fff;
+
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.logo img {
+    width: 360px;
+}
+
+.slogan {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slogan h1 {
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    margin: 0;
+}
+
+.slogan span {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1em;
+}
