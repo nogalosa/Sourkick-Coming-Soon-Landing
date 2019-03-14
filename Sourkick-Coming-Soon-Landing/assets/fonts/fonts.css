@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Ultrabold.woff2') format('woff2'),
+        url('MonumentExtended-Ultrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.woff2') format('woff2'),
+    url('Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
